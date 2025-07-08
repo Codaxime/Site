@@ -1,0 +1,175 @@
+/******* GENERAL *******/
+/* spacing on all sections */
+#about,
+#skills,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#about h2,
+#skills h2,
+#portfolio h2,
+#contact h2 {
+    margin-bottom: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+.navbar {
+  background-color: #16162a; /*Ajout du fond de la barre de navigation*/
+  position: fixed;             /* Fixée en haut de la page */
+  top: 0;                      /* Positionne la barre tout en haut de la fenêtre (0 pixels du haut) */
+  width: 100%;                 /* La barre occupe toute la largeur de la fenêtre */
+}
+
+.background-fixed {
+  background-image: url("images/Backgroundsite.webp"); /* Définit l’image d’arrière-plan à partir du fichier donné */
+  background-size: cover;                              /* L’image couvre toute la surface du conteneur*/
+  background-position: center;                         /* Centre l’image horizontalement et verticalement */
+  background-attachment: fixed;                        /* Fixe l’image par rapport à la fenêtre */
+  background-repeat: no-repeat;                        /* Empêche l’image de se répéter si elle est plus petite que le conteneur */
+}
+
+/* hero background image */
+.video-banner {
+  position: relative;
+  width: 100vw;        /* largeur 100% de la fenêtre */
+  height: 100vh;       /* hauteur 100% de la fenêtre */
+  max-height: 900px;   /* limite la hauteur max */
+  overflow: hidden;    /* masque les débordements */
+}
+
+.video-banner video.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;        /* vidéo pleine largeur */
+  height: 100%;        /* hauteur du conteneur */
+  object-fit: cover;   /* remplit en gardant le ratio */
+  z-index: -1;         /* derrière le texte */
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about */  
+#about {
+  background-color: white;      /* fond blanc */
+  padding: 20px;                /* espace à l’intérieur */
+  border-radius: 8px;           /* coins arrondis, optionnel */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* ombre légère */
+  max-width: 1300px;             /* largeur max du rectangle */
+  margin: 20px auto;            /* centrer horizontalement avec un espace vertical */
+  box-sizing: border-box;       /* inclure padding dans la largeur */
+  width: 90%;                  /* largeur à 90% de la zone parent pour la responsivité */
+  
+}
+#skills h2 {
+  /* styles uniquement pour le h2 de la section compétences */
+  background-color: white;      /* fond blanc */
+  padding: 20px;                /* espace à l’intérieur */
+  border-radius: 8px;           /* coins arrondis, optionnel */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* ombre légère */
+  max-width: 1300px;             /* largeur max du rectangle */
+  margin: 20px auto;            /* centrer horizontalement avec un espace vertical */
+  box-sizing: border-box;       /* inclure padding dans la largeur */
+  width: 30%;                  /* largeur à 90% de la zone parent pour la responsivité */
+  
+}
+
+#portfolio h2 {
+  /* styles uniquement pour le h2 de la section compétences */
+  background-color: white;      /* fond blanc */
+  padding: 20px;                /* espace à l’intérieur */
+  border-radius: 8px;           /* coins arrondis, optionnel */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* ombre légère */
+  max-width: 1300px;             /* largeur max du rectangle */
+  margin: 20px auto;            /* centrer horizontalement avec un espace vertical */
+  box-sizing: border-box;       /* inclure padding dans la largeur */
+  width: 30%;                  /* largeur à 90% de la zone parent pour la responsivité */
+  
+}
+
+#contact h2 {
+  /* styles uniquement pour le h2 de la section compétences */
+  background-color: white;      /* fond blanc */
+  padding: 20px;                /* espace à l’intérieur */
+  border-radius: 8px;           /* coins arrondis, optionnel */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* ombre légère */
+  max-width: 1300px;             /* largeur max du rectangle */
+  margin: 20px auto;            /* centrer horizontalement avec un espace vertical */
+  box-sizing: border-box;       /* inclure padding dans la largeur */
+  width: 30%;                  /* largeur à 90% de la zone parent pour la responsivité */
+  
+}
+
+
+.imageAboutPage {
+    width: 50%;
+    
+}
+
+/* skills */
+.skillsText.card {
+    height: 350px;
+    cursor: pointer;
+}
+.skillsText img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+#skills p {
+    text-align: center;
+}
+.skillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .skillsIcon {
+    color: #008000;
+}
+.skillsText:hover {
+    border: 1px solid #008000;
+}
+
+/* portfolio */
+#portfolio p {
+    text-align: center;
+}
+
+/* contact */
+.contactColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactColumn i {
+    color: #198754;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "image": "Redaction.webp",
+        "title": "Gestion et rédaction",
+        "text": "Stratégie et plan de test, gestion des campagnes de test, analyse et rédaction de rapport de test"
+    },
+    {
+        "image": "SkillTest.webp",
+        "title": "Test manuel", 
+        "text": "test fonctionnel, test non-fonctionnel, test exploratoire"
+    },
+    {
+        "image": "Skillauto.webp",
+        "title": "Automatisation",
+        "text": "Automatisation des tests E2E et des tests API avec Cypress et Postman"
+    },
+    {
+        "image": "MethodeAgile.webp",
+        "title": "Méthodologie Agile",
+        "text": "Connaissance des bonnes pratiques Agile : Scrum, Kanban"
+    },
+    {
+        "image": "html-css.webp",
+        "title": "HTML - CSS",
+        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma"
+    },
+    {
+        "image": "js.webp",
+        "title": "Javascript/Cypress",
+        "text": "Scrip d'automatisation avec Cypress."
+    }
+    
+    
+    
+]
