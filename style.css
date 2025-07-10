@@ -78,7 +78,7 @@
   
 }
 #skills h2,
-#contact h2,
+#contact,
 #portfolio h2 {
   /* styles uniquement pour le h2 de la section compétences */
   background-color: white;      /* fond blanc */
