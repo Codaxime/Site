@@ -2,19 +2,33 @@
     {
         "image": "Tomsen.webp",
         "title": "Projet TOMSEN",
-        "text": "Création de la stratégie de test et du cahier de recette pour une application bancaire.",
-        "link": "https://drive.google.com/drive/folders/1_hZw28RbqY1IIN9WSNXEb3Jq3JQ7AAUj?usp=drive_link"
+        "link": "https://drive.google.com/drive/folders/1_hZw28RbqY1IIN9WSNXEb3Jq3JQ7AAUj?usp=drive_link",
+        "resume": "Stratégie de Test en méthode Agile",
+        "objectives": "Création de la stratégie de test et du cahier de recette pour une application bancaire.",
+        "work": [
+            "Revue des exigences et planification des sprints",
+            "Rédaction du cahier de recette et des scénarios de Test"
+        ]
     },
     {
         "image": "724events.webp",
         "title": "Projet 724events",
         "text": "Etude d'automatisation et stratégie de test pour un site d'événementiel.",
-        "link": "https://drive.google.com/drive/folders/1YUsdOd4nZ0PBNs3Kr2rYDdUQIqtIEsqA?usp=drive_link"
+        "link": "https://drive.google.com/drive/folders/1YUsdOd4nZ0PBNs3Kr2rYDdUQIqtIEsqA?usp=drive_link",
+        "resume": "Résumé du projet 1.",
+        "objectives": "Objectifs du projet 1.",
+        "work": [
+            "Revue des exigences et planification des sprints",
+            "Rédaction du cahier de recette et des scénarios de Test"
+        ]
     },
     {
         "image": "Avocat.webp",
         "title": "Projet JCE Avocat",
         "text": "Excécution du cahier de recette et mise en place des tests exploratoires.",
-        "link": "https://drive.google.com/drive/folders/1FKeH5dcAJ75lqX6MO42smhVtkzXWjCSs?usp=drive_link"
+        "link": "https://drive.google.com/drive/folders/1FKeH5dcAJ75lqX6MO42smhVtkzXWjCSs?usp=drive_link",
+        "resume": "Résumé du projet 1.",
+        "objectives": "Objectifs du projet 1.",
+        "work": "Travail accompli dans le projet 1."
     }
 ]
