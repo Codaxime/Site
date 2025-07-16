@@ -28,7 +28,7 @@
 
 
 .background-fixed {
-  background-image: url("images/Backgroundsite.webp"); /* Définit l’image d’arrière-plan à partir du fichier donné */
+  background-image: url("images/Bug.webp"); /* Définit l’image d’arrière-plan à partir du fichier donné */
   background-size: cover;                              /* L’image couvre toute la surface du conteneur*/
   background-position: center;                         /* Centre l’image horizontalement et verticalement */
   background-attachment: fixed;                        /* Fixe l’image par rapport à la fenêtre */
@@ -55,8 +55,8 @@
 }
 /* text css above hero image*/
 @font-face {
-  font-family: 'HerrVonMuellerhoff';
-  src: url('fonts/HerrVonMuellerhoff-Regular.ttf') format('truetype');
+  font-family: 'Momentra';
+  src: url('fonts/Momentra.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -64,13 +64,13 @@
 .hero_title {
     font-size: 9rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: 'HerrVonMuellerhoff';
+    font-family: 'Momentra';
     
 }
 .hero_desc {
     font-size: 5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: 'HerrVonMuellerhoff';
+    font-family: 'Momentra';
 }
 .hero-text {
     text-align: center;
@@ -91,8 +91,11 @@
   margin: 20px auto;            /* centrer horizontalement avec un espace vertical */
   box-sizing: border-box;       /* inclure padding dans la largeur */
   width: 90%;                  /* largeur à 90% de la zone parent pour la responsivité */
-  
 }
+.about-text {
+text-align:justify;
+}
+
 #skills h2,
 #contact,
 #portfolio h2 {
@@ -111,8 +114,7 @@
 .imageAboutPage {
     width: 50%;
     display: block;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 /* skills */
@@ -120,6 +122,16 @@
     height: 350px;
     
 }
+.skillsText {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skillsText:hover {
+  transform: scale(1.40); /* Grossit la carte légèrement */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Ombre plus marquée au survol */
+  z-index: 1; /* S'assure que la carte passe au-dessus si besoin */
+}
+
 .skillsText img {
     width: 100%;
     height: 150px;
@@ -147,39 +159,53 @@
 #portfolio p {
     text-align: center;
 }
+
 .modal-content {
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-
+/* Body des cartes portfolio */
 .modal-body h6 {
   font-weight: bold;
   font-size: 1.75rem;
   margin-top: 1rem;
-  color: #198754; /* Vert Bootstrap */
+  color: white; /* Vert Bootstrap */
   border-bottom: 1px solid #dee2e6;
   padding-bottom: 4px;
-  border-left: 4px solid #464675;
+  border-left: 4px solid #a13a42;
   padding-left: 10px;
   margin-top: 20px;
 }
+/* Titre des cartes portfolio */
 .modal-title {
   font-size: 3rem; /* Ajuste selon ton besoin */
   font-weight: bold;
+  color:white;
 }
+/* Texte des cartes portfolio */
 .modal-body p {
   margin-bottom: 1rem;
   line-height: 1.6;
+  color:white;
 }
+/* Puce portfolio */
+.modal-body li {
+  color:white;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+/* Animation des cartes portfolio*/ 
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
   transform: translateY(-20px);
 }
+/* Animation des cartes */ 
 .modal.show .modal-dialog {
   transform: translateY(0);
 }
+/* Couleur de fond des cartes portfolio*/ 
 .modal-content.custom-bg {
-  background-color: #e0f7fa;
+  background-color: #1f2d3d;
   border-radius: 12px;
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -198,7 +224,7 @@
 
 /* footer */
 footer {
-    background-color: #333;
+    background-color: #14202c ;
     color: white;
     padding: 1rem;
     text-align: center;
